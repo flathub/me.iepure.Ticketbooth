@@ -54,8 +54,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/aleiepure/ticketbooth",
-                    "tag": "v1.0.2",
-                    "commit": "762e01bb5aacaba2fd8ade5311a073be0c6b0677"
+                    "tag": "v1.0.3",
+                    "commit": "a112988adf26f2fefcae6031135f0baaf711c1fc"
                 }
             ]
         }
