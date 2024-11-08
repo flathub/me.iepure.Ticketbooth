@@ -1,7 +1,7 @@
 {
     "id": "me.iepure.Ticketbooth",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "command": "ticketbooth",
     "finish-args": [
@@ -56,6 +56,10 @@
                     "url": "https://github.com/aleiepure/ticketbooth",
                     "tag": "v1.0.3.1",
                     "commit": "5db4928a65ab992944aa7f92715d990f8275760e"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }
