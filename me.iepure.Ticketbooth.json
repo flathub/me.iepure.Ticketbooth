@@ -28,18 +28,18 @@
         "pypi-dependencies.json",
         {
             "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.10.0"
-                }
-            ]
-        },
+		  	"buildsystem": "meson",
+		  	"cleanup": [
+				"*"
+		  	],
+		  	"sources": [
+				{
+				  "type": "git",
+				  "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+				  "tag": "v0.16.0"
+				}
+		  	]
+		},
         {
             "name": "ticketbooth",
             "buildsystem": "meson",
@@ -54,12 +54,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/aleiepure/ticketbooth",
-                    "tag": "v1.0.3.1",
-                    "commit": "5db4928a65ab992944aa7f92715d990f8275760e"
-                },
-                {
-                    "type": "patch",
-                    "path": "fix-appdata.patch"
+                    "tag": "v1.1",
+                    "commit": "c9916b2ebe96caa647eb1e6f4d754e15069d495f"
                 }
             ]
         }
