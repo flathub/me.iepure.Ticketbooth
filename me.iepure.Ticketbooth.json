@@ -1,7 +1,7 @@
 {
     "id": "me.iepure.Ticketbooth",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "command": "ticketbooth",
     "finish-args": [
@@ -28,18 +28,18 @@
         "pypi-dependencies.json",
         {
             "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.10.0"
-                }
-            ]
-        },
+		  	"buildsystem": "meson",
+		  	"cleanup": [
+				"*"
+		  	],
+		  	"sources": [
+				{
+				  "type": "git",
+				  "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+				  "tag": "v0.16.0"
+				}
+		  	]
+		},
         {
             "name": "ticketbooth",
             "buildsystem": "meson",
@@ -54,8 +54,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/aleiepure/ticketbooth",
-                    "tag": "v1.0.3",
-                    "commit": "a112988adf26f2fefcae6031135f0baaf711c1fc"
+                    "tag": "v1.1",
+                    "commit": "2863dca590e432c005bf3cd1c0640d389ea34f28"
                 }
             ]
         }
